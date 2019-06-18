@@ -15,12 +15,11 @@
       <div class="content flex-container">
         <div class="input_panel">
           <input id="user-input" placeholder="Enter dice + mod here"></input>
-          <button class="roll">ROLL</button>
+          <button class="roll" onclick="getRoll();">ROLL</button>
         </div>
-        <textarea name="roll-info" rows="8" cols="80"></textarea>
+        <textarea id="output-box" name="roll-info" rows="8" cols="80"></textarea>
       </div>
-
     </main>
-
+    <script src="roller.js"></script>
   </body>
 </html>
